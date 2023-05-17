@@ -1,0 +1,76 @@
+.container_navbar {
+  position: absolute;
+  width: 1109px;
+  height: 23px;
+  left: 126px;
+  top: 61px;
+}
+
+.Genesis_header_home {
+  Width: 90.13px;
+  Height: 19.34px;
+}
+
+.genesis_logo {
+  justify-content: start;
+  Width: 90.13px;
+  Height: 19.34px;
+  margin-left: 126px;
+  margin-top: 61px;
+}
+
+.navbar_home {
+  display: flex;
+  height: 23px;
+  left: 94.05%;
+}
+
+.navbar_project {
+  justify-content: end;
+  align-items: baseline;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: -0.346154px;
+  color: #111111;
+}
+
+.topic-section-container {
+  display: flex;
+  width: 635px;
+  height: 251px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height */
+  letter-spacing: -0.423077px;
+}
+
+.home_shooting_stars {
+  display: flex;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height */
+  letter-spacing: -0.423077px;
+  color: #4A4FF2;
+}
+
+.home_top-topic {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  /* or 150% */
+  color: #111111;
+}
+
+/*# sourceMappingURL=styles.css.map */
