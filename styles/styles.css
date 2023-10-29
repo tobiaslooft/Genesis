@@ -1,76 +1,466 @@
-.container_navbar {
-  position: absolute;
-  width: 1109px;
-  height: 23px;
-  left: 126px;
-  top: 61px;
-}
+@import 'project';
+@import 'contact';
 
-.Genesis_header_home {
-  Width: 90.13px;
-  Height: 19.34px;
+
+.body {
+  display: flex;
+  width: 1110px;
+  height: 1960px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .genesis_logo {
-  justify-content: start;
-  Width: 90.13px;
-  Height: 19.34px;
+  width: 90.132px;
+  height: 19.344px;
+  flex-shrink: 0;
+  margin-top: 60px;
   margin-left: 126px;
-  margin-top: 61px;
-}
-
-.navbar_home {
-  display: flex;
-  height: 23px;
-  left: 94.05%;
 }
 
 .navbar_project {
-  justify-content: end;
-  align-items: baseline;
-  font-family: "Mulish";
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
-  /* identical to box height */
-  letter-spacing: -0.346154px;
-  color: #111111;
+  line-height: normal;
+  letter-spacing: -0.346px;
+  margin-top: 60px;
+  margin-left: 927px;
 }
 
-.topic-section-container {
-  display: flex;
-  width: 635px;
-  height: 251px;
-  font-family: "Mulish";
+.navbar_contact {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
-  line-height: 28px;
-  /* identical to box height */
-  letter-spacing: -0.423077px;
+  line-height: normal;
+  letter-spacing: -0.346px;
+  margin-top: 60px;
+  margin-left: 1169px;
 }
+
+
+.title_container {
+  padding-left: 125px;
+  padding-top: 156px;
+}
+
 
 .home_shooting_stars {
-  display: flex;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 28px;
-  /* identical to box height */
-  letter-spacing: -0.423077px;
+  width: 173px;
   color: #4A4FF2;
-}
-
-.home_top-topic {
-  font-family: "Mulish";
+  font-family: Mulish;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 60px;
-  /* or 150% */
-  color: #111111;
+  line-height: normal;
+  letter-spacing: -0.423px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+.home_title_text {
+  width: 635px;
+  height: 191px;
+  color: #111;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+ 
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  max-width: 1110px;
+  height: auto;
+  
+}
+
+.container-grid img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+}
+
+.grid1 {
+  width: 357px;
+  height: 413px;
+  flex-shrink: 0;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.grid2 {
+  width: 357px;
+  height: 475px;
+  flex-shrink: 0;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.grid3 {
+  width: 357px;
+  height: 475px;
+  flex-shrink: 0;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.grid4 {
+  width: 357px;
+  height: 475px;
+  flex-shrink: 0;
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+.grid5 {
+  width: 356px;
+  height: 351px;
+  flex-shrink: 0;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.grid6 {
+  width: 350px;
+  height: 413px;
+  flex-shrink: 0;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.grid7 {
+  width: 356px;
+  height: 537px;
+  flex-shrink: 0;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.grid8 {
+  width: 356px;
+  height: 599px;
+  flex-shrink: 0;
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+.grid9 {
+  width: 350px;
+  height: 599px;
+  flex-shrink: 0;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.grid10 {
+  width: 357px;
+  height: 413px;
+  flex-shrink: 0;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.grid11 {
+  width: 357px;
+  height: 537px;
+  flex-shrink: 0;
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+.grid12 {
+  width: 350px;
+  height: 351px;
+  flex-shrink: 0;
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+
+.section-2-under-bilder-container {
+  display: flex;
+  width: 1079px;
+  height: 106px;
+  flex-shrink: 0;
+  padding-left: 126px;
+}
+
+.vänster-text-section-3 {
+  color: #111;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  /* 135.714% */
+  padding-top: 91px;
+}
+
+.grupp_3 {
+  padding-left: 126px;
+  padding-top: 91px;
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.grupp_3_2 {
+  padding-left: 126px;
+  padding-top: 91px;
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.awards_container {
+  width: 1110px;
+  height: 823px;
+  flex-shrink: 0;
+  padding-top: 250px;
+  box-sizing: border-box;
+  display: flex;
+  padding-bottom: 1000px;
+}
+
+.rubrik_awards {
+  color: #111;
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 126px;
+  padding-top: 48px
+}
+
+.rubrik_CSSDegisnAwards {
+  color: #111;
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 420px;
+  padding-left: 126px;
+}
+
+
+.rtm_1 {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 50px;
+  padding-left: 475px;
+}
+
+.rtm_2 {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 167px;
+  padding-left: 475px;
+}
+
+.rtm_3 {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 150px;
+  padding-left: 475px;
+}
+
+.rtm_4 {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 167px;
+  padding-left: 475px;
+}
+
+.mitthöger_total {
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container_mitthöger_1 {
+  display: flex;
+  width: 190px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-top: 45px;
+  padding-left: 160px;
+
+}
+
+.container_mitthöger_2 {
+  display: flex;
+  width: 190px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 12px;
+  padding-top: 65px;
+  padding-left: 160px;
+}
+
+.container_mitthöger_3 {
+  display: flex;
+  width: 190px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 12px;
+  padding-top: 35px;
+  padding-left: 160px;
+}
+
+.container_mitthöger_4 {
+  display: flex;
+  width: 190px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 12px;
+  padding-top: 53px;
+  padding-left: 160px;
+}
+
+
+
+
+h5 {
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h6 {
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+.years {
+  color: #111;
+  text-align: right;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.years1 {
+  padding-top: 70px;
+  padding-left: 121px;
+}
+
+.years2 {
+  padding-top: 180px;
+  padding-left: 121px;
+}
+
+.years3 {
+  padding-top: 200px;
+  padding-left: 121px;
+}
+
+.years4 {
+  padding-top: 200px;
+  padding-left: 121px;
+}
+
+.container_footer {
+  display: flex;
+  align-items: center;
+}
+
+.container_footer ul {
+  list-style: none;
+  display: flex;
+}
+
+.container_footer a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+
+.genesis_logo {
+  padding-left: 125px;
+  padding-bottom: 47px;
+  width: 90px;
+  height: 19px;
+  flex-shrink: 0;
+}
+
+.footer_project {
+  padding-left: 757px;
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.346px;
+
+}
+
+.footer_contact {
+  padding-left: 30px;
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.346px;
+}
+
+.footer_links_social_media {
+  padding-left: 95px;
+}
+
+@import 'project';
+@import 'contact';
