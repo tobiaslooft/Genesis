@@ -1,0 +1,177 @@
+@import 'home';
+@import 'contact';
+
+@import 'home';
+@import 'contact';
+
+.body {
+    display: flex;
+    width: 1110px;
+    height: 1960px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: 'Mulish';
+
+    .container_footer {
+        justify-content: center;
+
+        .genesis_logo {
+            width: 90.132px;
+            height: 19.344px;
+            flex-shrink: 0;
+            margin-top: 60px;
+        }
+
+        .navbar_project,
+        .navbar_contact {
+            color: #111;
+            font-family: 'Mulish';
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.346px;
+            margin-top: 60px;
+        }
+    }
+
+    .section_1_2 {
+        display: flex;
+        justify-content: center;
+
+        .left-section {
+            display: flex;
+            flex-direction: column;
+            color: #111;
+            font-family: 'Mulish';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+
+            .topic_section_1_left {
+                color: #111;
+                font-family: 'Mulish';
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 55px;
+                width: 475px;
+            }
+
+            .text_section_1_left {
+                width: 635px;
+                height: 222px;
+            }
+        }
+
+        .container_section_1_right {
+            width: 335px;
+            height: 343px;
+            flex-shrink: 0;
+            padding-left: 140px;
+            padding-top: 75px;
+
+            .details_row {
+                flex-shrink: 0;
+                display: flex;
+                justify-content: space-between;
+                padding: 5px 0;
+                width: 335px;
+                height: 42px;
+                flex-shrink: 0;
+                color: #111;
+                font-family: 'Mulish';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
+
+    .container_girl_crossing_street_img {
+        display: flex;
+        justify-content: center;
+        padding-top: 61px;
+
+        .img_girl_crossing_street {
+            box-sizing: border-box;
+            width: 1110px;
+            height: 660px;
+            flex-shrink: 0;
+            background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        }
+    }
+
+    .container_text_to_picture_1 {
+        display: flex;
+        justify-content: center;
+        width: 1109px;
+        height: 93px;
+        padding-left: 280px;
+        padding-top: 45px;
+
+        .image_text_1 {
+            color: #111;
+            font-family: 'Mulish';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+
+    .three_images_row {
+        display: flex;
+        justify-content: center;
+        padding: 45px;
+
+        .page_2_img {
+            padding: 10px;
+            width: 350px;
+            height: 400px;
+            flex-shrink: 0;
+        }
+    }
+
+    .footer_project,
+    .footer_contact {
+        color: #111;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.346px;
+
+        .genesis_logo {
+            padding-left: 125px;
+            padding-bottom: 47px;
+            width: 90px;
+            height: 19px;
+            flex-shrink: 0;
+            margin-top: 60px;
+        }
+
+        .footer_links_social_media {
+            padding-left: 95px;
+
+            .socials_container {
+                display: flex;
+
+                .socials_links {
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}
+
+@import 'home';
+@import 'contact';
+
+
+@import 'home';
+@import 'contact';

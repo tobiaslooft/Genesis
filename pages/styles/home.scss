@@ -1,0 +1,258 @@
+@import 'project';
+@import 'contact';
+
+$body-width: 1110px;
+$font-family: 'Mulish';
+
+.body {
+    display: flex;
+    width: $body-width;
+    height: 1960px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    .container_footer {
+        justify-content: center;
+
+        .genesis_logo {
+            width: 90.132px;
+            height: 19.344px;
+            flex-shrink: 0;
+            margin-top: 60px;
+        }
+
+        .navbar_project,
+        .navbar_contact {
+            color: #111;
+            font-family: $font-family;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.346px;
+            margin-top: 60px;
+        }
+    }
+
+    .title_container {
+        padding-left: 125px;
+        padding-top: 156px;
+        padding-bottom: 144px;
+        justify-content: center;
+
+        .home_shooting_stars {
+            width: 173px;
+            color: #4A4FF2;
+            font-family: $font-family;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.423px;
+        }
+
+        .home_title_text {
+            width: 635px;
+            height: 191px;
+            color: #111;
+            font-family: $font-family;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+        }
+    }
+
+    .container-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        max-width: $body-width;
+        height: auto;
+        justify-content: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+            position: relative;
+        }
+
+        .grid1,
+        .grid2,
+        .grid3,
+        .grid4,
+        .grid5,
+        .grid6,
+        .grid7,
+        .grid8,
+        .grid9,
+        .grid10,
+        .grid11,
+        .grid12 {
+            flex-shrink: 0;
+        }
+    }
+
+    .section-2-under-bilder-container {
+        display: flex;
+        width: 1079px;
+        height: 106px;
+        flex-shrink: 0;
+        padding-left: 126px;
+
+        .vänster-text-section-3 {
+            color: #111;
+            font-family: $font-family;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 38px;
+            padding-top: 91px;
+        }
+
+        .grupp_3,
+        .grupp_3_2 {
+            padding-left: 126px;
+            padding-top: 91px;
+            color: #111;
+            font-family: $font-family;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    .awards_container {
+        width: $body-width;
+        height: 823px;
+        flex-shrink: 0;
+        padding-top: 250px;
+        box-sizing: border-box;
+        display: flex;
+        padding-bottom: 1000px;
+
+        .rubrik_awards,
+        .rubrik_CSSDegisnAwards {
+            color: #111;
+            font-family: $font-family;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-left: 126px;
+        }
+
+        .rtm_1,
+        .rtm_2,
+        .rtm_3,
+        .rtm_4 {
+            color: #111;
+            font-family: $font-family;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-left: 475px;
+        }
+
+        .mitthöger_total {
+            color: #111;
+            font-family: $font-family;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .container_mitthöger_1,
+        .container_mitthöger_2,
+        .container_mitthöger_3,
+        .container_mitthöger_4 {
+            display: flex;
+            width: 190px;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+            padding-left: 160px;
+        }
+
+        h5,
+        h6,
+        .years {
+            color: #111;
+            font-family: $font-family;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .years1 {
+            padding-top: 70px;
+        }
+
+        .years2 {
+            padding-top: 180px;
+        }
+
+        .years3,
+        .years4 {
+            padding-top: 200px;
+        }
+    }
+
+    .container_footer {
+        display: flex;
+        align-items: center;
+
+        .genesis_logo {
+            padding-left: 125px;
+            padding-bottom: 47px;
+            width: 90px;
+            height: 19px;
+            flex-shrink: 0;
+        }
+
+        .footer_project {
+            padding-left: 757px;
+            color: #111;
+            font-family: $font-family;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.346px;
+        }
+
+        .footer_contact {
+            padding-left: 30px;
+            color: #111;
+            font-family: $font-family;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.346px;
+        }
+
+        .footer_links_social_media {
+            padding-left: 95px;
+
+            .socials_container {
+                display: flex;
+
+                .socials_links {
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}
+
+@import 'project';
+@import 'contact';

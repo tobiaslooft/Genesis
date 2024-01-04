@@ -12,12 +12,16 @@
   flex-shrink: 0;
 }
 
+.container_footer {
+  justify-content: center;
+}
+
 .genesis_logo {
   width: 90.132px;
   height: 19.344px;
   flex-shrink: 0;
   margin-top: 60px;
-  margin-left: 126px;
+
 }
 
 .navbar_project {
@@ -29,7 +33,7 @@
   line-height: normal;
   letter-spacing: -0.346px;
   margin-top: 60px;
-  margin-left: 927px;
+
 }
 
 .navbar_contact {
@@ -41,13 +45,14 @@
   line-height: normal;
   letter-spacing: -0.346px;
   margin-top: 60px;
-  margin-left: 1169px;
 }
 
 
 .title_container {
   padding-left: 125px;
   padding-top: 156px;
+  padding-bottom: 144px;
+  justify-content: center;
 }
 
 
@@ -73,7 +78,15 @@
   line-height: 60px;
 }
 
- 
+.span_blue_text {
+  color: #4A4FF2;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
 .container-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -81,7 +94,7 @@
   grid-gap: 10px;
   max-width: 1110px;
   height: auto;
-  
+  justify-content: center;
 }
 
 .container-grid img {
@@ -461,6 +474,15 @@ h6 {
 .footer_links_social_media {
   padding-left: 95px;
 }
+
+.socials_container {
+  display: flex;
+}
+
+.socials_links {
+  justify-content: space-between;
+}
+
 
 @import 'project';
 @import 'contact';
