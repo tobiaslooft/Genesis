@@ -269,5 +269,10 @@
   justify-content: space-between;
 }
 
+a:hover {
+  color: #4A4FF2;
+
+}
+
 @import 'home';
 @import 'contact';
